@@ -1,0 +1,35 @@
+.navbar {
+    padding: 0.5rem 2rem;
+}
+
+.searchbox {
+    width: 25vw;
+    display: block;
+}
+.search {
+    display: none;
+}
+.logo {
+    height: 45px;
+}
+
+.profile-pic {
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.logout {
+    cursor: pointer;
+}
+
+@media screen  and (max-width:620px){
+    .searchbox {
+        display: none;
+    }
+    .search {
+        display: block;
+    }
+    .navbar {
+        padding: 0.25rem;
+    }
+}

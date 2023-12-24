@@ -1,0 +1,23 @@
+.myprofile-container {
+    max-width: 80vw;
+    margin: 2rem auto;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+}
+
+.card {
+    padding: 0 !important;
+    margin: 4px;
+}
+
+@media screen and (max-width: 650px ) {
+    .myprofile-container {
+        max-width: 95%;
+    }
+    .card {
+        margin: 2px;
+    }
+}
